@@ -1,0 +1,14 @@
+name: Prueba Actions
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  hello:
+    name: Test Actions Hello
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Hola
+        run: echo Hola mundo

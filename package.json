@@ -1,0 +1,19 @@
+{
+  "name": "ejercicio-basico-nodejs",
+  "version": "1.0.0",
+  "description": "Este es un ejercicio basico",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Anthony Tacuri",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
