@@ -4,11 +4,21 @@ on:
   push:
     branches:
       - main
+      - dev
+  pull_request:
+    branches:
+      - dev
 
 jobs:
-  hello:
-    name: Test Actions Hello
+  tests:
+    name: Test Actions Suma
     runs-on: ubuntu-20.04
     steps:
-      - name: Hola
-        run: echo Hola mundo
+      - name: Chechout
+        uses: actions/checkout@v3
+      - name: Instalar dependencias
+        run: npm install
+      - name: Ejecutar Pruebas
+        run: npm test
+      - name: Fin del proceso
+        run: echo Proceso Terminado
