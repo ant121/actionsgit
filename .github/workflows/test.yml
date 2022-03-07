@@ -11,8 +11,8 @@ jobs:
     name: Test Actions Suma
     runs-on: ubuntu-20.04
     steps:
-      - name: copy file
-      - uses: actions/checkout@v3
+      - name: Chechout
+#     - uses: actions/checkout@v3
 #      - uses: actionsgit/copy-file-action@dev
 #      - run: npm install
 #      - run: npm test
