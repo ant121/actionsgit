@@ -13,6 +13,8 @@ jobs:
     steps:
       - name: Chechout
         uses: actions/checkout@v3
+      - name: Instalar dependencias
+        run: npm install
 #      - run: npm install
 #      - run: npm test
 #        run: echo proceso terminado
