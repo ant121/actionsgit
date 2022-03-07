@@ -12,8 +12,7 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - name: Chechout
-#     - uses: actions/checkout@v3
-#      - uses: actionsgit/copy-file-action@dev
+        uses: actions/checkout@v3
 #      - run: npm install
 #      - run: npm test
         run: echo proceso terminado
